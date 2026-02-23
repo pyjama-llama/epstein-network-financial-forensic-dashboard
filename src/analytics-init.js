@@ -18,9 +18,9 @@ async function main() {
     // ── Load data using Vite's compile-time BASE_URL ────────────────────────
     let graph;
     try {
-        const url = import.meta.env.BASE_URL + 'src/data/graph.json';
-        console.log('[Analytics] Fetching:', url);
-        const res = await fetch(url);
+        const url = new URL('./data/graph.json', import.meta.url);
+        console.log('[Analytics] Fetching:', url.href);
+        const res = await fetch(url.href);
         console.log('[Analytics] Fetch status:', res.status);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         graph = await res.json();
