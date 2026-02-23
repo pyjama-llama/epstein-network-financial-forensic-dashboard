@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - feature/analytics-chart-4-time-zoom
+      - main
   workflow_dispatch:
 
 permissions:

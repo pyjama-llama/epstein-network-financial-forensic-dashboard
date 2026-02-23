@@ -1,0 +1,21 @@
+{
+  "hash": "7349bc41",
+  "configHash": "3345258b",
+  "lockfileHash": "70786112",
+  "browserHash": "03a1920b",
+  "optimized": {
+    "d3": {
+      "src": "../../node_modules/d3/src/index.js",
+      "file": "d3.js",
+      "fileHash": "d2401504",
+      "needsInterop": false
+    },
+    "fuse.js": {
+      "src": "../../node_modules/fuse.js/dist/fuse.mjs",
+      "file": "fuse__js.js",
+      "fileHash": "0a1022c8",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

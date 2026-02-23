@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/epstein-forensic-finance/',
+  base: '/epstein-network-financial-forensic-dashboard/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
