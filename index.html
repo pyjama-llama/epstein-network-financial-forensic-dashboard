@@ -22,11 +22,15 @@
 
     <!-- Top Bar -->
     <header id="topbar">
-      <div id="topbar-left">
+      <div id="topbar-left" style="display: flex; gap: 32px; align-items: center;">
         <div id="logo">
           <span class="logo-icon">⬡</span>
           <span class="logo-text">FORENSIC <span class="logo-accent">NETWORK</span></span>
         </div>
+        <nav id="page-nav" style="display: flex; gap: 4px;">
+          <a href="./index.html" class="nav-tab active">Network</a>
+          <a href="./analytics.html" class="nav-tab">Analytics</a>
+        </nav>
       </div>
 
 
@@ -54,11 +58,6 @@
       </div>
 
       <div id="topbar-right">
-        <nav id="page-nav">
-          <a href="./index.html" class="nav-tab active">Network</a>
-          <a href="./analytics.html" class="nav-tab">Analytics</a>
-        </nav>
-        <div class="topbar-divider"></div>
         <button id="btn-info" class="btn-ghost" title="About this visualization">ⓘ About</button>
         <button id="btn-reset" class="btn-ghost" title="Reset view">Reset</button>
         <button id="btn-fit" class="btn-ghost" title="Fit graph">Fit</button>
