@@ -5,7 +5,8 @@ An interactive, searchable network graph of documented wire transfers in the Jef
 > **Live site**: [pyjama-llama.github.io/epstein-network-financial-forensic-dashboard](https://pyjama-llama.github.io/epstein-network-financial-forensic-dashboard/index.html)
 
 ![Small multiple Cash Flow](https://github.com/pyjama-llama/epstein-network-financial-forensic-dashboard/blob/fce41fb3505e18f5576f7bfa311b1aa69dbf1216/docs/Analytics.png)
-https://github.com/pyjama-llama/epstein-network-financial-forensic-dashboard/blob/fce41fb3505e18f5576f7bfa311b1aa69dbf1216/docs/Analytics.png
+![Network Visualization of Payments](https://github.com/pyjama-llama/epstein-network-financial-forensic-dashboard/blob/1c2964e64a545f6731d7d2ac5d5016bac73930f4/docs/Network.png)
+
 
 ---
 
